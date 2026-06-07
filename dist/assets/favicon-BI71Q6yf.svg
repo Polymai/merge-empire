@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Merge Empire favicon</title>
+  <desc id="desc">Neon stacked city tiles forming an M.</desc>
+  <defs>
+    <linearGradient id="tile" x1="8" y1="56" x2="56" y2="8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2af6ff"/>
+      <stop offset="0.52" stop-color="#ff3fd6"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#07111f"/>
+  <path d="M12 48V19l9-5 11 12 11-12 9 5v29h-9V30L32 43 21 30v18h-9Z" fill="none" stroke="url(#tile)" stroke-width="5" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M19 50h26" stroke="#ffd166" stroke-width="3" stroke-linecap="round"/>
+</svg>
